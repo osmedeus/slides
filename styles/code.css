@@ -1,0 +1,116 @@
+.slidev-toc-item {
+  a {
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+:not(pre) {
+  & > code {
+    padding: 0 4px;
+
+    &::after, &::before {
+      content: '';
+    }
+  }
+}
+
+/* Dracula theme colors
+ * bg:       #181920    fg:       #f8f8f2
+ * red:      #ff5555    green:    #50fa7b
+ * yellow:   #f1fa8c    blue:     #bd93f9
+ * magenta:  #ff79c6    cyan:     #8be9fd
+ * br-red:   #ff6e6e    br-green: #69ff94
+ * br-yellow:#ffffa5    br-blue:  #d6acff
+ * br-mag:   #ff92df    br-cyan:  #a4ffff
+ * comment:  #6272a4    selection:#44475a
+ */
+
+/* Headings */
+.slidev-layout h1 {
+  color: #8be9fd !important;
+  text-transform: none !important;
+}
+
+.slidev-layout h2 {
+  color: #bd93f9 !important;
+  text-transform: none !important;
+}
+
+.slidev-layout h3 {
+  color: #50fa7b !important;
+  text-transform: none !important;
+}
+
+/* Background & foreground */
+.slidev-layout,
+.slidev-page,
+body {
+  background-color: #181920 !important;
+  color: #f8f8f2 !important;
+}
+
+/* Text & list items */
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout span {
+  color: #f8f8f2;
+}
+
+/* Bold text */
+.slidev-layout strong {
+  color: #ff79c6;
+}
+
+/* Inline code */
+.slidev-layout :not(pre) > code {
+  color: #50fa7b !important;
+  background-color: #44475a !important;
+}
+
+/* Code blocks */
+.slidev-layout pre {
+  font-size: 0.72em !important;
+  line-height: 1.4 !important;
+  background-color: #21222c !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+.slidev-layout pre code {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+/* Tables */
+.slidev-layout table {
+  font-size: 0.8em;
+}
+
+.slidev-layout table td,
+.slidev-layout table th {
+  padding: 0.25rem 0.5rem;
+  border-color: #44475a !important;
+}
+
+.slidev-layout table th {
+  color: #f1fa8c !important;
+}
+
+/* Links */
+.slidev-layout a {
+  color: #8be9fd !important;
+}
+
+.slidev-layout a:hover {
+  color: #a4ffff !important;
+}
+
+/* Selection */
+::selection {
+  background-color: #44475a !important;
+  color: #f8f8f2 !important;
+}

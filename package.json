@@ -1,0 +1,30 @@
+{
+  "name": "osmedeus-slides",
+  "version": "1.0.0",
+  "description": "Osmedeus — A Modern Orchestration Engine for Security",
+  "private": "true",
+  "main": "slides.md",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "osmedeus",
+    "security",
+    "orchestration"
+  ],
+  "author": "j3ssie",
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.1",
+    "@slidev/cli": "^52.14.2",
+    "playwright-chromium": "^1.19.2",
+    "slidev-theme-dracula": "^0.2.0"
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^4.5.12",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-slab": "^4.5.9"
+  }
+}
