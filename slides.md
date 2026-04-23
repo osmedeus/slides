@@ -22,6 +22,8 @@ Github: **github.com/j3ssie/osmedeus**
 
 Docs: **docs.osmedeus.org**
 
+Contact: **x.com/j3ssie**
+
 </div>
 
 <div>
